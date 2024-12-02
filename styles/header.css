@@ -48,6 +48,7 @@ header {
                 width: 87.27px;
                 border-radius: 50%;
                 object-fit: cover;
+                background-size: cover;
                 
             }
 
@@ -61,8 +62,8 @@ header {
                 object-fit: cover;
 
                 position: absolute;
-                top: 70%;
-                right: -3%;
+                top: 63%;
+                right: -8%;
                 
             }
         }
