@@ -1,25 +1,17 @@
 header {
     margin-top: 0px;
 
+    /*  !Importante - aqui Coloca a imagem backgroud na Div, pega todo o epaço, não repete as imagens e deixa qualidade otima  */
     background-image: url(../assets/images/background/Background_Intro.png);
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
 
-    
-    /* .icon-baixo {
-        display: flex;
-        align-self: center;
-        margin-top: 94px;  
-        
-    } */
-
 }
 
 
 
-
-#container{
+#container {
     /* border: 2px solid red; */
     
     height: 1366px;
@@ -35,36 +27,35 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        /* margin: 120px 163px 0 163px; */
         margin-top: 120px;
         
         /* Foto do perfil mais o icon code */
         &>div {
             /* border: 2px solid violet; */
+
             position: relative;
 
             &>img:nth-child(1) {
                 width: 87.27px;
                 border-radius: 50%;
+                /* Aqui o icon code vai ficar na proporção certa e com tamanho certo com qualidade quando definimos o tamanha WIDTH */
                 object-fit: cover;
                 background-size: cover;
                 
             }
 
             &>img:nth-child(1):hover {
-                outline: 3px solid var(--red);
+                outline: 3px solid var(--red); /* Essa propriedade pega a borda externo */
             }
 
             .code {
                 width: 31px;
                 height: 25px;
-                object-fit: cover;
+                object-fit: cover; /* Deixa o tamanho proporção ideal quando é definifo WIDTH*/
 
                 position: absolute;
                 top: 63%;
                 right: -8%;
-                
             }
         }
 
@@ -75,64 +66,31 @@ header {
             display: flex;
             flex-direction: column;
             align-items: center;
-
-            margin-top: 56px;
-
-            span {
-                font: var(--text-subtitulo);
-                color: var(--gray-500);
-                
-            }
-
-            span > span {
-                color: var(--red);
-            }
-
-            h1 {
-                margin-top: 8px;
-                color: var(--gray-600);
-                font: var(--text-lg);
-                
-            }
-
-            p {
-                margin-top: 20px;
-                margin-bottom: 80px;
-                width: 680px;
-
-                color: var(--gray-400);
-                font: var(--text-mavPro-sm);
-                text-align: center;
-            }
-        }
-
-
-
-
-        
+            margin-top: 56px; 
+        }   
     }
 
 
     .container-tags{
         /* border: 2px solid blue; */
+
         display: flex;
         flex-direction: row;
         gap: 16px;
         margin-top: 0;
-        
 
         .tag {
-            display: flex;
-
             width: 114px;
             height: 40px;
+            display: flex;
+
             align-items: center;
             justify-content: center;
             border-radius: 999px;
             background-color: var(--gray-300);
             color: var(--gray-500);
-            border: 0;
-            outline: 0;
+            border: 0; /* Borda interno 0 */
+            outline: 0; /* Borda externo 0 */
             cursor: pointer;
 
             img {
@@ -143,7 +101,7 @@ header {
         }
 
         .tag:hover {
-            border: 3px solid var(--red);
+            outline: 3px solid var(--red); /* Defini a borda externo*/
         }
 
         .html img{
@@ -153,10 +111,7 @@ header {
         .css img{
             width: 17px;
         }
-
     }
-
-
 }
 
 

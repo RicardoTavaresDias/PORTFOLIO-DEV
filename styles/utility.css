@@ -1,0 +1,91 @@
+
+
+/* HEADER */
+.text-header {
+
+  span {
+    font: var(--text-subtitulo);
+    color: var(--gray-500);       
+  }
+
+  span > span {
+    color: var(--red);
+  }
+
+  h1 {
+    margin-top: 8px;
+    color: var(--gray-600);
+    font: var(--text-lg);   
+  }
+
+  p {
+      margin: 20px 0px 80px 0px;
+      width: 680px;
+
+      color: var(--gray-400);
+      font: var(--text-mavPro-sm);
+      text-align: center;
+  }
+}
+
+/* Cabeçalho dos TRABALHOS e dos SERVIÇOS */
+.cabecalho {
+  span {
+    font: var(--text-mavPro-md);
+    color: var(--red);
+    font-size: 24px;
+  }
+
+  h2 {
+    font: var(--text-mavPro-md);
+    color: var(--gray-600);
+    font-size: 29px;
+  }
+}
+
+
+/* Corpo do texto com formatações diferete no TRABALHOS e SERVIÇOS */
+.text-trabalhos {
+  h3 {
+    color: var(--gray-600);
+    font: var(--text-sm);  
+  }
+
+ p {
+    color: var(--gray-500);
+    font: var(--text-mavPro-sm);
+  }
+}
+
+.text-servico {
+  h3 {
+    color: var(--gray-600);
+    font: var(--text-mavPro-sm);
+    font-size: 19px;
+  }
+
+  p {
+    color: var(--gray-500);
+    font: var(--text-mavPro-sm);     
+  }
+}
+
+
+/* Texto Cabeçalho dos LINKS formatação diferente do .cabeçalho */
+.text-links-cabeçalho {
+  span {
+    color: var(--puple);
+    font: var(--text-subtitulo);
+    font-size: 24px; 
+  }
+
+  h3 {
+    color: var(--gray-600);
+    font: var(--text-md);
+  }
+
+  p {
+    color: var(--gray-500);
+    font: var(--text-mavPro-md);
+  }
+}

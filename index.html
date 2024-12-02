@@ -30,7 +30,7 @@
 
 <body>
 
-    <!-- Cabeçalho -->
+    <!-- Cabeçalho Perfil -->
    <header class="intro">
 
         <div id="container">
@@ -41,7 +41,7 @@
                     <img class="code" src="./assets/icons/code.png" alt="Icon code">
                 </div>
 
-                <div class="text-perfil">
+                <div class="text-perfil text-header">
 
                     <span>Hello World! Meu nome é
                          <span>Ricardo Tavares</span> 
@@ -93,11 +93,11 @@
 
             </section>
 
-            <!-- <span> -->
+            
             <section class="icon-baixo">
                 <img src="./assets/icons/doublearrow.png" alt="">
             </section>
-            <!-- </span> -->
+            
 
         </div>
 
@@ -110,16 +110,16 @@
 <main>
 
     
-    <div class="descricao">
+    <div class="trabalhos cabecalho">
         <span>Meu Trabalho</span>
         <h2>Veja os projetos em destaque</h2>
     </div>
 
 
     <!-- Conteudo Descrição dos trabalhos-->
-    <div class="container-descricao">
+    <section class="container-trabalhos">
 
-        <div class="trabalho">
+        <div class="trabalho text-trabalhos">
             <img src="./assets/images/projects/Tranvegram.png" alt="Rede social onde as pessoas mostram os registros de suas viagens pelo mundo">
             <div>
                 <h3>Travelgram</h3>
@@ -128,7 +128,7 @@
         </div>
 
 
-        <div class="trabalho">
+        <div class="trabalho text-trabalhos">
             <img src="./assets/images/projects/portal_noticias.png" alt="Homepage de um portal de notícias sobre a área de tecnologia">
             <div>
                 <h3>Tech News</h3>
@@ -138,7 +138,7 @@
 
 
 
-        <div class="trabalho">
+        <div class="trabalho text-trabalhos">
             <img src="./assets/images/projects/Receitas.png" alt="Página com o passo a passo de uma receita para cupcakes">
             <div>
                 <h3>Página de receita</h3>
@@ -148,7 +148,7 @@
 
 
 
-        <div class="trabalho">
+        <div class="trabalho text-trabalhos">
             <img src="./assets/images/projects/Zingen.png" alt="Landing Page completa e responsiva de um aplicativo de Karaokê">
             <div>
                 <h3>Zingen</h3>
@@ -158,7 +158,7 @@
 
 
 
-        <div class="trabalho">
+        <div class="trabalho text-trabalhos">
             <img src="./assets/images/projects/Refund.png" alt="Um sistema para pedido e acompanhamento de reembolso">
             <div>
                 <h3>Refund</h3>
@@ -168,7 +168,7 @@
 
 
 
-        <div class="trabalho">
+        <div class="trabalho text-trabalhos">
             <img src="./assets/images/projects/turismo.png" alt="Página com as principais informações para quem quer viajar para Busan">
             <div>
                 <h3>Página de turismo</h3>
@@ -176,17 +176,15 @@
             </div>
         </div>
 
-
-    </div>
+    </section>
 
 
 
 
     <!-- Meus Serviços -->
-    <!-- <section> -->
     <section id="servico-container">
 
-        <div class="descricao">
+        <div class="cabecalho">
             <span>Meus serviços</span>
             <h2>Como posso ajudar o seu negócio</h2>
         </div>
@@ -196,7 +194,7 @@
 
             <div class="servico">
                 <img src="./assets/icons/computer.png" alt="Desenvolvimento de interfaces">
-                <div>
+                <div class="text-servico">
                     <h3>Websites e Aplicativos</h3>
                     <p>Desenvolvimento de interfaces</p>
                 </div>
@@ -205,7 +203,7 @@
 
             <div class="servico">
                 <img src="./assets/icons/api.png" alt="Criação de serviços do sistema">
-                <div>
+                <div class="text-servico api">
                     <h3>API e banco de dados</h3>
                     <p>Criação de serviços do sistema</p>
                 </div>
@@ -214,7 +212,7 @@
 
             <div class="servico">
                 <img src="./assets/icons/devops.png" alt="Gestão e infraestrutura da aplicação">
-                <div>
+                <div class="text-servico devops">
                     <h3>DevOps</h3>
                     <p>Gestão e infraestrutura da aplicação</p>
                 </div>
@@ -228,12 +226,10 @@
 
 
 
-
-
 <!-- Meus Links -->
 <section id="contener-links">
 
-    <div>
+    <div class="text-links-cabeçalho">
         <span>Contato</span>
         <h3>Gostou do meu trabalho? </h3>
         <p>Entre em contato ou acompanhe as minhas redes sociais!</p>
@@ -242,6 +238,7 @@
     <div class="meus-links">
         
             <button class="tag">
+                <!-- !Importante - aqui faz a troca de imagem com HOVER -->
                 <img 
                     src="./assets/icons/Social/logo-linkedin.svg" 
                     onmouseover="this.src='./assets/icons/Social/logo-linkedin_HOVER.svg'" 
@@ -250,6 +247,7 @@
 
                 <span>Linkedin</span>
 
+                <!-- !Importante - aqui faz a troca de imagem com HOVER -->
                 <img class="seta" 
                     src="./assets/icons/Social/seta.svg"
                     onmouseover="this.src='./assets/icons/Social/seta_HOVER.svg'" 
@@ -257,6 +255,7 @@
             </button>
 
             <button class="tag">
+                <!-- !Importante - aqui faz a troca de imagem com HOVER -->
                 <img 
                     src="./assets/icons/Social/logo-instagram.svg" 
                     onmouseover="this.src='./assets/icons/Social/logo-instagram_HOVER.svg'" 
@@ -264,7 +263,7 @@
                     alt="Instagram">
 
                 <span>Instagram</span>
-
+                <!-- !Importante - aqui faz a troca de imagem com HOVER -->
                 <img class="seta" 
                     src="./assets/icons/Social/seta.svg"
                     onmouseover="this.src='./assets/icons/Social/seta_HOVER.svg'" 
@@ -272,6 +271,7 @@
             </button>
 
             <button class="tag">
+                <!-- !Importante - aqui faz a troca de imagem com HOVER -->
                 <img 
                     src="./assets/icons/Social/logo-github.svg"
                     onmouseover="this.src='./assets/icons/Social/logo-github_HOVER.svg'" 
@@ -279,7 +279,7 @@
                     alt="GitHub">
 
                 <span>GitHub</span>
-
+                <!-- !Importante - aqui faz a troca de imagem com HOVER -->
                 <img class="seta" 
                     src="./assets/icons/Social/seta.svg"
                     onmouseover="this.src='./assets/icons/Social/seta_HOVER.svg'" 
@@ -287,6 +287,7 @@
             </button>
 
             <button class="tag">
+                <!-- !Importante - aqui faz a troca de imagem com HOVER -->
                 <img 
                     src="./assets/icons/Social/mail-outline.svg"
                     onmouseover="this.src='./assets/icons/Social/mail-outline_HOVER.svg'" 
@@ -294,7 +295,7 @@
                     alt="E-Mail">
 
                 <span>E-Mail</span>
-                
+                <!-- !Importante - aqui faz a troca de imagem com HOVER -->
                 <img class="seta" 
                     src="./assets/icons/Social/seta.svg"
                     onmouseover="this.src='./assets/icons/Social/seta_HOVER.svg'" 
@@ -307,7 +308,6 @@
 
 
 </main>
-
-    
+  
 </body>
 </html>
