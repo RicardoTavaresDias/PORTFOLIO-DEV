@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #E3646E;
+    --puple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+    --gray-100: #0D0E11;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
+
+
+    --font-family: "Asap", serif;
+    --text-lg: 800 56px/120% var(--font-family);
+    --text-md: 800 24px/120% var(--font-family);
+    --text-sm: 800 16px/120% var(--font-family);
+
+    --fonte-perfil: "Inconsolata", monospace;
+    --text-subtitulo: 400 20px/120% var(--fonte-perfil); 
+
+    --font-mavPro: "Maven Pro", sans-serif;
+    --text-mavPro-md: 400 16px/140% var(--font-mavPro);
+    --text-mavPro-sm: 400 14px/140% var(--font-mavPro);
+    
+}
+
+body{
+    background-color: var(--gray-200);
+}
