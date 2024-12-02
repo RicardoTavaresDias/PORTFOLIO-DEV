@@ -41,6 +41,8 @@ header {
                 /* Aqui o icon code vai ficar na proporção certa e com tamanho certo com qualidade quando definimos o tamanha WIDTH */
                 object-fit: cover;
                 background-size: cover;
+                /* Borda do contorno com a cor do fundo, sensação igual Instagram*/
+                border: 4.5px solid var(--gray-200); 
                 
             }
 
@@ -92,7 +94,9 @@ header {
             border: 0; /* Borda interno 0 */
             outline: 0; /* Borda externo 0 */
             cursor: pointer;
-
+            /* Borda do contorno com a cor do fundo, sensação igual Instagram*/
+            border: 2px solid var(--gray-200); 
+            
             img {
                 width: 20px;
                 margin-right: 8px;
