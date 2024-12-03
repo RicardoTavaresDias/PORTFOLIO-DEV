@@ -144,12 +144,12 @@ main {
             text-align: right;
             cursor: pointer;
 
-            &>img {
+            &>svg {
                 width: 35px;
                 background: none;
                 cursor: pointer;
             }
-            
+
             span {
                 font: var(--text-mavPro-md);
                 color: var(--gray-500);
@@ -163,6 +163,7 @@ main {
                 width: 22px;
                 cursor: pointer;
             }
+            
         }
 
         button:hover{
@@ -171,5 +172,4 @@ main {
         }
     }
 }
-
 

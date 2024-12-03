@@ -89,3 +89,52 @@
     font: var(--text-mavPro-md);
   }
 }
+
+
+/* Botão hover e os icon trocando de cores */
+button:hover{
+  /* Linkedin */
+  & .linkedin {
+    fill: #006699; 
+  }
+  .linkedin-seta path{
+    stroke: #006699; 
+  }
+
+  /* Instagram */
+  & .instagram {
+    fill: #DD2A7B;
+  }
+  .instagram-seta path{
+    stroke: #DD2A7B; 
+  }
+
+  /* GitHub */
+  & .github {
+    fill: #FFFFFF;
+  }
+  .github-seta path{
+    stroke: #FFFFFF; 
+  }
+
+  /* E-Mail */
+  & .email rect{
+    fill: #FF403E;
+    stroke: #FF403E;
+  }
+  .email-seta path{
+    stroke: #FF403E; 
+  }
+
+}
+
+
+
+ 
+ 
+ 
+
+ button:hover .email rect{
+    fill: #FF403E;
+    stroke: #FF403E;
+}
