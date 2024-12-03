@@ -95,46 +95,35 @@
 button:hover{
   /* Linkedin */
   & .linkedin {
-    fill: #006699; 
+    fill: #468398; 
   }
-  .linkedin-seta path{
+  /* .linkedin-seta path{
     stroke: #006699; 
-  }
+  } */
 
   /* Instagram */
   & .instagram {
-    fill: #DD2A7B;
+    fill: #d97d92;
   }
-  .instagram-seta path{
+  /* .instagram-seta path{
     stroke: #DD2A7B; 
-  }
+  } */
 
   /* GitHub */
   & .github {
-    fill: #FFFFFF;
+    fill: #DCDDD2;
   }
-  .github-seta path{
+  /* .github-seta path{
     stroke: #FFFFFF; 
-  }
+  } */
 
   /* E-Mail */
   & .email rect{
-    fill: #FF403E;
-    stroke: #FF403E;
+    fill: #C45A54;
+    stroke: #C45A54;
   }
-  .email-seta path{
+  /* .email-seta path{
     stroke: #FF403E; 
-  }
+  } */
 
-}
-
-
-
- 
- 
- 
-
- button:hover .email rect{
-    fill: #FF403E;
-    stroke: #FF403E;
 }
