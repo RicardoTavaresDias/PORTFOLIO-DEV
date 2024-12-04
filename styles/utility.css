@@ -95,7 +95,8 @@
 button:hover{
   /* Linkedin */
   & .linkedin {
-    fill: #468398; 
+    /* fill: #468398; */
+    fill: #9f645b; 
   }
   /* .linkedin-seta path{
     stroke: #006699; 
@@ -103,7 +104,8 @@ button:hover{
 
   /* Instagram */
   & .instagram {
-    fill: #d97d92;
+    /* fill: #d97d92; */
+    fill: #9f645b;
   }
   /* .instagram-seta path{
     stroke: #DD2A7B; 
@@ -111,7 +113,8 @@ button:hover{
 
   /* GitHub */
   & .github {
-    fill: #DCDDD2;
+    /* fill: #DCDDD2; */
+    fill: #9f645b;
   }
   /* .github-seta path{
     stroke: #FFFFFF; 
@@ -119,8 +122,10 @@ button:hover{
 
   /* E-Mail */
   & .email rect{
-    fill: #C45A54;
-    stroke: #C45A54;
+    /* fill: #C45A54; */
+    /* stroke: #C45A54; */
+    fill: #9f645b;
+    stroke: #9f645b;
   }
   /* .email-seta path{
     stroke: #FF403E; 
